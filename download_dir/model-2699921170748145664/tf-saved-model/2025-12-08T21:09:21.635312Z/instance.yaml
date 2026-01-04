@@ -1,0 +1,370 @@
+type: object
+required:
+- CAPEI
+- bm
+- evm
+- pe_op_basic
+- pe_op_dil
+- pe_exi
+- pe_inc
+- ps
+- pcf
+- dpr
+- npm
+- opmbd
+- opmad
+- gpm
+- ptpm
+- cfm
+- roa
+- roe
+- roce
+- efftax
+- aftret_eq
+- aftret_invcapx
+- aftret_equity
+- pretret_noa
+- pretret_earnat
+- GProf
+- equity_invcap
+- debt_invcap
+- totdebt_invcap
+- capital_ratio
+- int_debt
+- int_totdebt
+- cash_lt
+- invt_act
+- rect_act
+- debt_at
+- debt_ebitda
+- short_debt
+- curr_debt
+- lt_debt
+- profit_lct
+- ocf_lct
+- cash_debt
+- fcf_ocf
+- lt_ppent
+- dltt_be
+- debt_assets
+- debt_capital
+- de_ratio
+- intcov
+- intcov_ratio
+- cash_ratio
+- quick_ratio
+- curr_ratio
+- cash_conversion
+- inv_turn
+- at_turn
+- rect_turn
+- pay_turn
+- sale_invcap
+- sale_equity
+- sale_nwc
+- rd_sale
+- adv_sale
+- staff_sale
+- accrual
+- ptb
+- PEG_trailing
+- divyield
+- ratingdate
+- Prior_Rating_Ordinal
+- outlook
+- prioroutlook
+properties:
+  CAPEI:
+    type: string
+    nullable: true
+  bm:
+    type: string
+    nullable: true
+  evm:
+    type: string
+    nullable: true
+  pe_op_basic:
+    type: string
+    nullable: true
+  pe_op_dil:
+    type: string
+    nullable: true
+  pe_exi:
+    type: string
+    nullable: true
+  pe_inc:
+    type: string
+    nullable: true
+  ps:
+    type: string
+    nullable: true
+  pcf:
+    type: string
+    nullable: true
+  dpr:
+    type: string
+    nullable: true
+  npm:
+    type: string
+    nullable: true
+  opmbd:
+    type: string
+    nullable: true
+  opmad:
+    type: string
+    nullable: true
+  gpm:
+    type: string
+    nullable: true
+  ptpm:
+    type: string
+    nullable: true
+  cfm:
+    type: string
+    nullable: true
+  roa:
+    type: string
+    nullable: true
+  roe:
+    type: string
+    nullable: true
+  roce:
+    type: string
+    nullable: true
+  efftax:
+    type: string
+    nullable: true
+  aftret_eq:
+    type: string
+    nullable: true
+  aftret_invcapx:
+    type: string
+    nullable: true
+  aftret_equity:
+    type: string
+    nullable: true
+  pretret_noa:
+    type: string
+    nullable: true
+  pretret_earnat:
+    type: string
+    nullable: true
+  GProf:
+    type: string
+    nullable: true
+  equity_invcap:
+    type: string
+    nullable: true
+  debt_invcap:
+    type: string
+    nullable: true
+  totdebt_invcap:
+    type: string
+    nullable: true
+  capital_ratio:
+    type: string
+    nullable: true
+  int_debt:
+    type: string
+    nullable: true
+  int_totdebt:
+    type: string
+    nullable: true
+  cash_lt:
+    type: string
+    nullable: true
+  invt_act:
+    type: string
+    nullable: true
+  rect_act:
+    type: string
+    nullable: true
+  debt_at:
+    type: string
+    nullable: true
+  debt_ebitda:
+    type: string
+    nullable: true
+  short_debt:
+    type: string
+    nullable: true
+  curr_debt:
+    type: string
+    nullable: true
+  lt_debt:
+    type: string
+    nullable: true
+  profit_lct:
+    type: string
+    nullable: true
+  ocf_lct:
+    type: string
+    nullable: true
+  cash_debt:
+    type: string
+    nullable: true
+  fcf_ocf:
+    type: string
+    nullable: true
+  lt_ppent:
+    type: string
+    nullable: true
+  dltt_be:
+    type: string
+    nullable: true
+  debt_assets:
+    type: string
+    nullable: true
+  debt_capital:
+    type: string
+    nullable: true
+  de_ratio:
+    type: string
+    nullable: true
+  intcov:
+    type: string
+    nullable: true
+  intcov_ratio:
+    type: string
+    nullable: true
+  cash_ratio:
+    type: string
+    nullable: true
+  quick_ratio:
+    type: string
+    nullable: true
+  curr_ratio:
+    type: string
+    nullable: true
+  cash_conversion:
+    type: string
+    nullable: true
+  inv_turn:
+    type: string
+    nullable: true
+  at_turn:
+    type: string
+    nullable: true
+  rect_turn:
+    type: string
+    nullable: true
+  pay_turn:
+    type: string
+    nullable: true
+  sale_invcap:
+    type: string
+    nullable: true
+  sale_equity:
+    type: string
+    nullable: true
+  sale_nwc:
+    type: string
+    nullable: true
+  rd_sale:
+    type: string
+    nullable: true
+  adv_sale:
+    type: string
+    nullable: true
+  staff_sale:
+    type: string
+    nullable: true
+  accrual:
+    type: string
+    nullable: true
+  ptb:
+    type: string
+    nullable: true
+  PEG_trailing:
+    type: string
+    nullable: true
+  divyield:
+    type: string
+    nullable: true
+  ratingdate:
+    type: string
+    nullable: true
+  Prior_Rating_Ordinal:
+    type: string
+    nullable: true
+  outlook:
+    type: string
+    nullable: true
+  prioroutlook:
+    type: string
+    nullable: true
+nullable: true
+example:
+  CAPEI: '0.0157054555844745'
+  bm: '-0.2296904584812651'
+  evm: '-0.157028314670878'
+  pe_op_basic: '0.0272211190297832'
+  pe_op_dil: '0.0261311446992834'
+  pe_exi: '-0.0322106385411165'
+  pe_inc: '-0.064662975775286'
+  ps: '-0.2293805067335873'
+  pcf: '-0.1168921742094069'
+  dpr: '-0.1119452950980232'
+  npm: '-0.1579653549503194'
+  opmbd: '-0.2456903465362234'
+  opmad: '-0.2377760116207886'
+  gpm: '-0.1235968859573752'
+  ptpm: '-0.1744216913161267'
+  cfm: '-0.2052103683148449'
+  roa: '-0.1743226378297262'
+  roe: '-0.1559696336964519'
+  roce: '-0.2164178594608071'
+  efftax: '0.1348857062266514'
+  aftret_eq: '-0.020674282185851'
+  aftret_invcapx: '-0.0954409602756311'
+  aftret_equity: '-0.0192068563297235'
+  pretret_noa: '-0.2388159276204702'
+  pretret_earnat: '-0.215637240065103'
+  GProf: '-0.2553194996810115'
+  equity_invcap: '0.1118058566065132'
+  debt_invcap: '-0.1172681051948125'
+  totdebt_invcap: '-0.1360371952988019'
+  capital_ratio: '-0.1028644128021897'
+  int_debt: '-0.0906756977620575'
+  int_totdebt: '-0.0322484451173712'
+  cash_lt: '-0.3026386168656268'
+  invt_act: '-0.0716100165819791'
+  rect_act: '0.0228501288927258'
+  debt_at: '-0.1077497096367785'
+  debt_ebitda: '-0.1030993227947914'
+  short_debt: '-0.2850828736415058'
+  curr_debt: '-0.1475118463422191'
+  lt_debt: '0.0412323100989486'
+  profit_lct: '-0.2495958267908805'
+  ocf_lct: '-0.2524544446920907'
+  cash_debt: '-0.2398356572360848'
+  fcf_ocf: '0.1620128223868571'
+  lt_ppent: '-0.2817858427595412'
+  dltt_be: '-0.15546511684632'
+  debt_assets: '-0.0317485923306712'
+  debt_capital: '-0.0698487160633705'
+  de_ratio: '-0.0275022699380403'
+  intcov: '-0.0885425003509527'
+  intcov_ratio: '-0.1146863035998849'
+  cash_ratio: '-0.3027473079692454'
+  quick_ratio: '-0.2395097106957485'
+  curr_ratio: '-0.2500160184918608'
+  cash_conversion: '-0.1705982130330056'
+  inv_turn: '-0.099190932178177'
+  at_turn: '-0.2231947907676878'
+  rect_turn: '-0.100716789073051'
+  pay_turn: '-0.2387798471325853'
+  sale_invcap: '-0.2576946644011952'
+  sale_equity: '-0.0902159689926913'
+  sale_nwc: '-0.0457501456581083'
+  rd_sale: '-0.4187449489481261'
+  adv_sale: '-0.4767950734231221'
+  staff_sale: '-0.2205903476150533'
+  accrual: '0.0043106901024045'
+  ptb: '-0.2467410624853749'
+  PEG_trailing: '-0.2653308769149251'
+  divyield: '-0.2469496604556167'
+  ratingdate: '2016-01-28'
+  Prior_Rating_Ordinal: '6.0'
+  outlook: Stable
+  prioroutlook: Stable

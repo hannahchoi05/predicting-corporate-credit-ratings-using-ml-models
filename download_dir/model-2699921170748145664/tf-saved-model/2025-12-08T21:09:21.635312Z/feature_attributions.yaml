@@ -1,0 +1,148 @@
+type: object
+properties:
+  CAPEI:
+    type: number
+  bm:
+    type: number
+  evm:
+    type: number
+  pe_op_basic:
+    type: number
+  pe_op_dil:
+    type: number
+  pe_exi:
+    type: number
+  pe_inc:
+    type: number
+  ps:
+    type: number
+  pcf:
+    type: number
+  dpr:
+    type: number
+  npm:
+    type: number
+  opmbd:
+    type: number
+  opmad:
+    type: number
+  gpm:
+    type: number
+  ptpm:
+    type: number
+  cfm:
+    type: number
+  roa:
+    type: number
+  roe:
+    type: number
+  roce:
+    type: number
+  efftax:
+    type: number
+  aftret_eq:
+    type: number
+  aftret_invcapx:
+    type: number
+  aftret_equity:
+    type: number
+  pretret_noa:
+    type: number
+  pretret_earnat:
+    type: number
+  GProf:
+    type: number
+  equity_invcap:
+    type: number
+  debt_invcap:
+    type: number
+  totdebt_invcap:
+    type: number
+  capital_ratio:
+    type: number
+  int_debt:
+    type: number
+  int_totdebt:
+    type: number
+  cash_lt:
+    type: number
+  invt_act:
+    type: number
+  rect_act:
+    type: number
+  debt_at:
+    type: number
+  debt_ebitda:
+    type: number
+  short_debt:
+    type: number
+  curr_debt:
+    type: number
+  lt_debt:
+    type: number
+  profit_lct:
+    type: number
+  ocf_lct:
+    type: number
+  cash_debt:
+    type: number
+  fcf_ocf:
+    type: number
+  lt_ppent:
+    type: number
+  dltt_be:
+    type: number
+  debt_assets:
+    type: number
+  debt_capital:
+    type: number
+  de_ratio:
+    type: number
+  intcov:
+    type: number
+  intcov_ratio:
+    type: number
+  cash_ratio:
+    type: number
+  quick_ratio:
+    type: number
+  curr_ratio:
+    type: number
+  cash_conversion:
+    type: number
+  inv_turn:
+    type: number
+  at_turn:
+    type: number
+  rect_turn:
+    type: number
+  pay_turn:
+    type: number
+  sale_invcap:
+    type: number
+  sale_equity:
+    type: number
+  sale_nwc:
+    type: number
+  rd_sale:
+    type: number
+  adv_sale:
+    type: number
+  staff_sale:
+    type: number
+  accrual:
+    type: number
+  ptb:
+    type: number
+  PEG_trailing:
+    type: number
+  divyield:
+    type: number
+  ratingdate:
+    type: number
+  Prior_Rating_Ordinal:
+    type: number
+  outlook:
+    type: number
+  prioroutlook:
+    type: number
